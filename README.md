@@ -3,7 +3,7 @@ A docker image for dnscrypt-proxy with different servers resolving Chinese and I
 
 # How to use
 ```
-docker run --network-host qwerzl/betterdns:latest
+docker run --network=host qwerzl/betterdns:latest
 ```
 The default port is `533`. `--network=host` must be set or it won't function properly. 
 
