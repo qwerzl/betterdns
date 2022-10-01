@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v3
 
       # https://github.com/marketplace/actions/push-to-ghcr
-      - name: Build and publish a Docker image for macbre/nginx-http3
+      - name: Build and publish a Docker image for qwerzl/betterdns
         uses: macbre/push-to-ghcr@v8
         with:
           image_name: qwerzl/betterdns
