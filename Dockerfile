@@ -12,4 +12,4 @@ COPY supervisord.ini /etc/supervisord.ini
 COPY dnscrypt-proxy.toml /etc/dnscrypt-proxy.toml
 COPY dnscrypt-proxy-forwarding-rules.txt /
 
-ENTRYPOINT ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
+ENTRYPOINT ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.ini"]
