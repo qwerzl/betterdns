@@ -2,7 +2,8 @@ FROM alpine:latest
 
 RUN apk add --no-cache python3 python3-dev py3-pip wget dnscrypt-proxy
 
-RUN pip install supervisor-stdout supervisor
+RUN pip install supervisor
+RUN pip install git+https://github.com/coderanger/supervisor-stdout
 COPY crontab.txt /crontab.txt
 RUN chmod 755 /crontab.txt
 RUN crontab /crontab.txt
