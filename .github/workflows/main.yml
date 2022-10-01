@@ -25,4 +25,4 @@ jobs:
         with:
           image_name: qwerzl/betterdns
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # docker_io_token: ${{ secrets.DOCKER_IO_ACCESS_TOKEN }}
+          docker_io_token: ${{ secrets.DOCKER_IO_ACCESS_TOKEN }}
