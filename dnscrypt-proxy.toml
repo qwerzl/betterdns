@@ -101,7 +101,7 @@ force_tcp = false
 ## Note that, like DNSCrypt but unlike other HTTP versions, this uses
 ## UDP and (usually) port 443 instead of TCP.
 
-http3 = false
+#http3 = false
 
 
 ## SOCKS proxy
