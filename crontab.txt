@@ -1,1 +1,1 @@
-0 */2 * * * rm /dnscrypt-proxy-forwarding-rules.txt && wget https://fastgit.org/qwerzl/dnscrypt-china-list/main/dnscrypt-proxy-forwarding-rules.txt -o /dnscrypt-proxy-forwarding-rules.txt 
+0 */2 * * * rm /dnscrypt-proxy-forwarding-rules.txt && wget https://raw.fastgit.org/qwerzl/dnscrypt-china-list/main/dnscrypt-proxy-forwarding-rules.txt -o /dnscrypt-proxy-forwarding-rules.txt 
